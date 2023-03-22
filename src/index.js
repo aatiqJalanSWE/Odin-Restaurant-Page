@@ -3,6 +3,7 @@ import { loadMenuPage } from "./menu";
 import { loadContactPage } from "./contact";
 
 loadInitialPage();
+
 const tabSwitchingModule = (function () {
   const homeTab = document.querySelector(".home");
   homeTab.addEventListener("click", loadInitialPage);

@@ -15,8 +15,10 @@ export function loadMenuPage() {
   contentDiv.replaceChildren();
 
   const heading = document.createElement("h1");
+
   heading.textContent = "Menu :)";
   heading.classList.add("landing-title");
+
   contentDiv.appendChild(heading);
 
   addImageElement(contentDiv, menuInfo.srcLink1);
