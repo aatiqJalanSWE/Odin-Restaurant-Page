@@ -15,8 +15,10 @@ export function loadContactPage() {
   contentDiv.replaceChildren();
 
   const heading = document.createElement("h1");
+
   heading.textContent = "Contact :)";
   heading.classList.add("landing-title");
+
   contentDiv.appendChild(heading);
 
   addImageElement(contentDiv, contentInfo.srcLink1);
